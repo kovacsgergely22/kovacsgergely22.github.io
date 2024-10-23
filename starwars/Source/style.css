@@ -1,0 +1,103 @@
+header {
+    color: yellow;
+    text-align: center;
+    padding: 0%;
+    animation: animateHeader 5s backwards;
+}
+
+hgroup {
+    color: yellow;
+    text-align: center;
+    animation: animateHeader 5s 1.5s backwards;
+}
+
+main {
+    display: flex;
+    padding: 2%;
+    color: yellow;
+    font-style: normal;
+    font-size: 15pt;
+}
+
+section {
+    flex: 70%;
+    padding: 3%;
+}
+
+body {
+    background-color: black;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    font-family: arial black;
+    color: yellow;
+}
+
+iframe {
+    width: 90%;
+    flex: 75%;
+    padding-right: 2%;
+}
+
+button {
+    opacity: 0.9;
+    background-color: black;
+    padding: 2%;
+    border: 2px solid yellow;
+    text-align: center;
+    margin: 2%;
+    color: yellow;
+    font-style: normal;
+    font-size: 15pt;
+}
+
+a {
+    font-size: 15pt;
+    text-decoration: none;
+    color: yellow;
+    padding: 2%;
+
+}
+
+ul {
+    list-style-type: none;
+    padding: 3%;
+}
+
+li {
+    padding: 3%;
+}
+
+a:hover {
+    color: lightblue;
+}
+
+a:active {
+    color: red;
+}
+
+p {
+    text-align: justify;
+    padding: 2%;
+    font-size: 13pt;
+}
+
+.centerText {
+    text-align: center;
+}
+
+footer {
+    color: lightblue;
+    text-align: center;
+    padding: 1%;
+}
+
+@keyframes animateHeader {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}

@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="hu">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="Source/style.css">
+    <link rel="shortcut icon" href="Source/favicon.png">
+    <title>Star Wars</title>
+    <style>
+        #pageLinks:hover {
+            animation: animateLinks 5s;
+        }
+
+        #vertical {
+            flex: 30%;
+            padding: 3%;
+        }
+
+        @keyframes animateLinks {
+            0% {
+                background-color: black;
+            }
+
+            100% {
+                background-color: yellow;
+            }
+        }
+    </style>
+    <script src="Source/jquery3.7.1.js"></script>
+    <script src="Source/jscript.js"></script>
+</head>
+
+<body>
+    <header>
+        <img src="Source/Star_Wars_Logo.svg.png" width="20%" alt="Banner" title="Star Wars">
+        <hgroup>
+            <h1>Csillagok háborúja</h1>
+            <h2>Amit a Csillagok Háborújáról tudni kell</h2>
+            <nav class="horizontal">
+                <a id="pageLinks" href="movies.html"> Filmek
+                    <img src="Source/millenium-falcon-1627322_1920.jpg" alt="Movies" width="10%" title="Filmek">
+                </a>
+                <a id="pageLinks" href="series.html"> Sorozatok
+                    <img src="Source/grogu-8263658_640.jpg" alt="Series" width="7%" title="Sorozatok">
+
+                </a>
+                <a id="pageLinks" href="sequence.html">Sorrend
+                    <img src="Source/star-wars-R2D2-2172948_640.jpg" alt="Star Wars" width="7%"
+                        title="Star Wars filmek és sorozatok gyártási és történeti időrendi sorrendben">
+                </a>
+                <a id="pageLinks" href="link.html">Ajánló
+                    <img src="Source/spaceship-2841277_640.png" alt="Spaceship" width="6%" title="Ajánló">
+                </a>
+            </nav>
+        </hgroup>
+    </header>
+
+    <main>
+        <nav id="vertical">
+            <h3>Minden, ami Star Wars:</h3>
+            <ul>
+                <li><a href="https://hu.wikipedia.org/wiki/Csillagok_h%C3%A1bor%C3%BAja">Wikipédia</a></li>
+                <li><a href="https://ignshop.hu/collections/star-wars-termekeink">Ajándéktárgyak</a></li>
+                <li><a href="https://kockashop.hu/legok/star-wars/1">Kockashop</a></li>
+                <li><a href="https://www.lego.com/hu-hu/themes/star-wars">Lego</a></li>
+                <li><a href="https://www.szukits.hu/kategoriak/star-wars">Könyvek</a></li>
+                <li><a href="https://www.starwars.com/">starwars.com</a></li>
+            </ul>
+        </nav>
+        <section>
+            <h3>Kedves Látogató </h3>
+            <p> Ezen az oldalon rengeteg információ található a Star Wars filmekkel, illetve sorozatokkal
+                kapcsolatban.
+                A Star Wars filmeket a Disney+ oldalán nézheted meg, amelynek linkjét megtalálod a láblécben.
+                Az oldalon elérhetők a filmek, a sorozatok, a Star Wars műsorok sorrendben, valamint egy ajánló is.
+                A fenti képekre kattintva információkat kaphatsz a filmekről, a sorozatokról, elérhetők a Star Wars
+                filmek gyártási és történeti időrendi sorrendben, és egy ajánló is, ahol látható mi készül éppen a Star
+                Wars műhelyében.
+            </p>
+            <p>
+                A bal oldalon található menüben érdekességeket találhatsz a Star Wars világáról, mint például a
+                Wikipédia oldalát, ahol további érdekességeket olvashatsz, egyéb oldalak, ahonnan ajándéktárgyakat
+                rendelhetsz.
+                A Kockashop és a Lego oldalán Lego Star Wars készleteket és makketteket találhatsz.
+            </p>
+            <p>
+                Jó szórakozást kívánok!
+            </p>
+            <blockquote class="centerText">
+                <hr>
+                <q>Az erő legyen veled!</q>
+                <hr>
+            </blockquote>
+            <div class="centerText">
+                <hr>
+                <a href="#top">Ugrás a lap tetejére!</a>
+                <hr>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <img src="Source/star-wars-light-2908144_1920.png" alt="Lightsaber" width="40%">
+        <nav id="horizontalFooter">A Star Wars filmeket a Disney+ oldalán nézheted meg:<br>
+            <br>
+            <a href="https://www.disneyplus.com/hu-hu">
+                <img src="Source/Disney+_logo.png" alt="disneyplus">
+            </a>
+        </nav>
+        <small>Copyright &copy; Kovács Gergely II. évfolyam mérnökinformatikus, levelező
+        </small>
+    </footer>
+</body>
+
+</html>

@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="hu">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="Source/style.css">
+    <link rel="shortcut icon" href="Source/favicon.png">
+    <title>Star Wars sorrendben</title>
+    <style>
+        #sidebar {
+            flex: 25%;
+            padding: 3%;
+        }
+
+        #vertical {
+            flex: 25%;
+            padding: 3%;
+        }
+
+        section {
+            flex: 75%;
+            padding-right: 3%;
+        }
+
+        #trailers {
+            width: 90%;
+            flex: 75%;
+            padding: 2%;
+        }
+
+        button {
+            opacity: 0.9;
+            background-color: black;
+            padding: 2%;
+            border: 2px solid yellow;
+            margin: 2%;
+            color: yellow;
+            font-style: normal;
+            font-size: 15pt;
+        }
+    </style>
+    <script src="Source/jquery3.7.1.js"></script>
+    <script src="Source/jscript.js"></script>
+    <script>
+        $(document).ready(function () {
+            $("#hide").click(function () {
+                if ($("#stg").is(":hidden")) {
+                    $("#stg").show();
+                } else {
+                    $("#stg").hide();
+                }
+            });
+        });
+    </script>
+</head>
+
+<body>
+    <header id="top">
+        <img src="Source/Star_Wars_Logo.svg.png" width="20%" alt="Banner">
+        <hgroup>
+            <h1>Csillagok háborúja</h1>
+            <h2>Filmek, sorozatok sorrendben</h2>
+        </hgroup>
+    </header>
+    <main>
+        <div id="sidebar">
+            <aside id="vertical">
+                <ul>
+                    <li><a href="index.html">Főoldal</a></li>
+                    <li><a href="movies.html">Filmek</a></li>
+                    <li><a href="series.html">Sorozatok</a></li>
+                    <li><a href="link.html">Ajánló</a></li>
+                </ul>
+            </aside>
+        </div>
+        <section>
+            <p>
+                Az oldalon a Csillagok háborúja filmeket és sorozatokat mutatjuk be. Rengeteg alkotás készült már az
+                első film 1977-es megjelenésétől kezdve. Az óriási Star Wars kínálatban így már nem könnyű eligazodni,
+                ehhez található egy kis segítség az oldalon. A filmekről és sorozatokról adunk egy gyártási időrendben
+                sorba rendezett listát és egy történeti időrendben sorba rendezett listát is, attól függően ki milyen
+                sorrendben szeretné megnézni ezeket. Első alkalommal érdemes gyártási sorrendben nézni a filmeket, mivel
+                így
+                nem lövünk le egyetlen poént sem idejekorán.
+            </p>
+            <p>
+                A lap alján lévő linkre kattintva eljuthatsz a Disney+ oldalára, ahol a
+                filmeket
+                és sorozatokat is
+                megtekintheted. A filmeket gyártási
+                sorrendben
+                és történeti időrendben is megnézhetjük, lényegesen eltér a kettő.
+            </p>
+            <hr>
+            <div id="stg" style="background-color: black; width: 100%;">
+            </div>
+            <div style="text-align: center;">
+                <p><b>Kattints a megfelelelő gombra attól függően, hogy a filmek gyártási vagy időrendi sorrendjében
+                        szeretnéd a listát!</b></p>
+                <button id="ReadJson">Star Wars filmek gyártási sorrendben</button>
+                <br>
+                <button id="ReadJson1">Star Wars filmek történeti időrendben</button>
+                <hr>
+                <button id="hide">Lista elrejtése/megjelenítése</button>
+            </div>
+            <div class="centerText">
+                <hr>
+                <a href="#top">Ugrás a lap tetejére!</a>
+                <hr>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <img src="Source/star-wars-light-2908144_1920.png" alt="Lightsaber" width="40%">
+        <nav id="horizontalFooter">A Star Wars filmeket a Disney+ oldalán nézheted meg:<br>
+            <br>
+            <a href="https://www.disneyplus.com/hu-hu">
+                <img src="Source/Disney+_logo.png" alt="disneyplus">
+            </a>
+        </nav>
+        <small>Copyright &copy; Kovács Gergely II. évfolyam mérnökinformatikus, levelező
+        </small>
+    </footer>
+</body>
+
+</html>

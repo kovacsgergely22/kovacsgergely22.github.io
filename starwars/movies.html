@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="hu">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="Source/style.css">
+    <link rel="shortcut icon" href="Source/favicon.png">
+    <title>Filmek</title>
+    <style>
+        #sidebar {
+            flex: 25%;
+            padding: 3%;
+        }
+
+        #vertical {
+            flex: 25%;
+            padding: 3%;
+        }
+
+        section {
+            flex: 75%;
+            padding-right: 3%;
+        }
+
+        #trailers {
+            width: 90%;
+            flex: 75%;
+            padding: 2%;
+        }
+    </style>
+
+    <script src="Source/jquery3.7.1.js"></script>
+    <script src="Source/jscript.js"></script>
+</head>
+
+<body background="Source/space-1164579_1920.png">
+    <header id="top">
+        <img src="Source/Star_Wars_Logo.svg.png" width="20%" alt="Banner">
+        <hgroup>
+            <h1>Csillagok háborúja</h1>
+            <h2>Filmek</h2>
+        </hgroup>
+    </header>
+    <main>
+        <div id="sidebar">
+            <aside id="vertical">
+                <ul>
+                    <li><a href="index.html">Főoldal</a></li>
+                    <li><a href="series.html">Sorozatok</a></li>
+                    <li><a href="sequence.html">Teljes sorrend</a></li>
+                    <li><a href="link.html">Ajánló</a></li>
+                </ul>
+            </aside>
+            <hr>
+            <h3>Epizódok</h3>
+            <hr>
+            <ol>
+                <li><a href="#star1">Csillagok háborúja: Baljós árnyak</a></li>
+                <li><a href="#star2">Csillagok háborúja: A klónok támadása</a></li>
+                <li><a href="#star3">Csillagok háborúja: A Sith-ek bosszúja</a></li>
+                <li><a href="#star4">Csillagok háborúja: Egy új remény</a></li>
+                <li><a href="#star5">Csillagok háborúja: A Birodalom visszavág</a></li>
+                <li><a href="#star6">Csillagok háborúja: A Jedi visszatér</a></li>
+                <li><a href="#star7">Csillagok háborúja: Az ébredő Erő</a></li>
+                <li><a href="#star8">Csillagok háborúja: Az utolsó Jedik</a></li>
+                <li><a href="#star9">Csillagok háborúja: Skywalker kora</a></li>
+            </ol>
+        </div>
+        <section>
+            <h3 id="star1">Star Wars: Episode I - Baljós árnyak</h3>
+            <hr>
+            <br>
+            <video id="trailers" controls>
+                <source src="Source/Meldar-StarWarsEpisodeIThePhantomMenaceTrailer439.mp4" type="video/mp4">
+                A böngésző nem támogatja a videó lejátszását.
+
+            </video>
+            <button onclick="trailers.play()">Indítás</button>
+            <button onclick="trailers.pause()">Megállít</button>
+            <button onclick="trailers.volume=0">Elnémít</button>
+            <button onclick="trailers.volume=1">Normál hangerő</button>
+            <button onclick="trailers.playbackRate=0.5">Sebesség = 0,5</button>
+            <button onclick="trailers.playbackRate=1">Sebesség = normál</button>
+            <hr>
+            <h3 id="star2">Star Wars: Episode II - A klónok háborúja</h3>
+            <hr>
+            <iframe width="893" height="493" src="https://www.youtube.com/embed/gYbW1F_c9eM"
+                title="Star Wars Episode II: Attack of the Clones - Trailer" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <hr>
+            <h3 id="star3">Star Wars: Episode III - A sith-ek bosszúja</h3>
+            <hr>
+            <iframe width="893" height="493" src="https://www.youtube.com/embed/5UnjrG_N8hU"
+                title="Star Wars Episode III: Revenge of the Sith - Trailer" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <hr>
+            <h3 id="star4">Star Wars: Episode IV - Az új remény</h3>
+            <hr>
+            <iframe width="893" height="493" src="https://www.youtube.com/embed/vZ734NWnAHA"
+                title="Star Wars Episode IV: A New Hope - Trailer" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <hr>
+            <h3 id="star5">Star Wars: Episode V - A Birodalom visszavág</h3>
+            <hr>
+            <iframe width="893" height="493" src="https://www.youtube.com/embed/ua0omrHbhMY"
+                title="Star Wars: The Empire Strikes Back - MODERN TRAILER (2020)" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <hr>
+            <h3 id="star6">Star Wars: Episode VI - A jedi visszatér</h3>
+            <hr>
+            <iframe width="893" height="493" src="https://www.youtube.com/embed/EcQKTTwLA-Y"
+                title="Star Wars: Return of The Jedi - MODERN TRAILER | 4K (40th Anniversary)" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <hr>
+            <h3 id="star7">Star Wars: Episode VII - Az ébredő Erő</h3>
+            <hr>
+            <iframe width="893" height="493" src="https://www.youtube.com/embed/sGbxmsDFVnE"
+                title="Star Wars: The Force Awakens Trailer (Official)" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <hr>
+            <h3 id="star8">Star Wars: Episode VIII - Az utolsó Jedik</h3>
+            <hr>
+            <iframe width="893" height="493" src="https://www.youtube.com/embed/Q0CbN8sfihY"
+                title="Star Wars: The Last Jedi Trailer (Official)" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <hr>
+            <h3 id="star9">Star Wars: Episode IX - Skywalker kora</h3>
+            <hr>
+            <iframe width="893" height="493" src="https://www.youtube.com/embed/8Qn_spdM5Zg"
+                title="Star Wars: The Rise of Skywalker | Final Trailer" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+            <div>
+                <hr>
+                <h3>Melyik a kedvenc Star Wars filmed?</h3>
+                <form>
+                    <datalist id="movies">
+                        <option value="Star Wars: Episode I - Baljós árnyak">
+                        <option value="Star Wars: Episode II - A klónok háborúja">
+                        <option value="Star Wars: Episode III - A sith-ek bosszúja">
+                        <option value="Star Wars: Episode IV - Az új remény">
+                        <option value="Star Wars: Episode V - A Birodalom visszavág">
+                        <option value="Star Wars: Episode VI - A jedi visszatér">
+                        <option value="Star Wars: Episode VII - Az ébredő Erő">
+                        <option value="Star Wars: Episode VIII - Az utolsó Jedik">
+                        <option value="Star Wars: Episode IX - Skywalker kora">
+                    </datalist>
+
+                    <label>Kedvenc filmem:
+                        <input list="movies" name="favoriteFilm" />
+                    </label>
+                    <input type="submit">
+                </form>
+            </div>
+            <div class="centerText">
+                <hr>
+                <a href="#top">Ugrás a lap tetejére!</a>
+                <hr>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <img src="Source/star-wars-light-2908144_1920.png" alt="Lightsaber" width="40%">
+        <nav id="horizontalFooter">A Star Wars filmeket a Disney+ oldalán nézheted meg:<br>
+            <br>
+            <a href="https://www.disneyplus.com/hu-hu">
+                <img src="Source/Disney+_logo.png" alt="disneyplus">
+            </a>
+        </nav>
+        <small>Copyright &copy; Kovács Gergely II. évfolyam mérnökinformatikus, levelező
+        </small>
+    </footer>
+
+</body>
+
+</html>

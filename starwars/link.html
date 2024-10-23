@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="hu">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="Source/style.css">
+    <link rel="shortcut icon" href="Source/favicon.png">
+    <title>Ajánló</title>
+    <style>
+        #sidebar {
+            flex: 25%;
+            padding: 3%;
+        }
+
+        #vertical {
+            flex: 25%;
+            padding: 3%;
+        }
+
+        section {
+            flex: 75%;
+            padding-right: 3%;
+        }
+
+        iframe {
+            width: 90%;
+            flex: 75%;
+            padding-right: 2%;
+        }
+    </style>
+    <script src="Source/jquery3.7.1.js"></script>
+    <script src="Source/jscript.js"></script>
+</head>
+
+<body>
+    <header id="top">
+        <img src="Source/Star_Wars_Logo.svg.png" width="20%" alt="Banner">
+        <hgroup>
+            <h1>Csillagok háborúja</h1>
+            <h2>Ajánló</h2>
+        </hgroup>
+    </header>
+    <main>
+        <div id="sidebar">
+            <aside id="vertical">
+                <ul>
+                    <li><a href="index.html">Főoldal</a></li>
+                    <li><a href="movies.html">Filmek</a></li>
+                    <li><a href="series.html">Sorozatok</a></li>
+                    <li><a href="sequence.html">Teljes sorrend</a></li>
+                </ul>
+            </aside>
+            <hr>
+            <h3>Készülő sorozatok</h3>
+            <hr>
+            <ul>
+                <li><a href="#history">Star Wars - Birodalmi históriák</a></li>
+                <li><a href="#acolyte">Star Wars - The Acolyte</a></li>
+            </ul>
+        </div>
+        <section>
+            <p>Jelenleg a következő filmek, illetve sorozatok készülnek:</p>
+            <hr>
+            <table cellspacing="1px" cellpadding="10px"
+                style="table-layout: fixed; width: 100%; color: black; font-weight: bold; border: white solid 1px;">
+
+                <tr style="font-size: 14pt; background: lightblue; color:yellow">
+                    <th><em>Várható megjelenések:</em></th>
+                    <th><em>Film vagy sorozat címe:</em></th>
+                    <th><em>Megjelenés időpontja</em></th>
+                </tr>
+
+                <tr style="text-align: center; background: lightgreen;">
+                    <td>1.</td>
+                    <td>Star Wars - Birodalmi históriák</td>
+                    <td>2024. május 4-től</td>
+                </tr>
+
+                <tr style="text-align: center; background: lightgreen;">
+                    <td>2.</td>
+                    <td>Star Wars - The Acolyte</td>
+                    <td>2024. június 5-én várható</td>
+                </tr>
+            </table>
+            <hr>
+            <h3 id="history">Star Wars - Birodalmi históriák</h3>
+            <hr>
+            <iframe width="893" height="493" src="https://www.youtube.com/embed/8SIST9t72kY"
+                title="Tales of the Empire | Official Trailer | Disney+" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <hr>
+            <h3 id="acolyte">Star Wars - The Acolyte</h3>
+            <hr>
+            <iframe width="893" height="493" src="https://www.youtube.com/embed/6tzur6JrUEA"
+                title="The Acolyte | Official Trailer | Disney+" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+            <hr>
+            <div>
+                <h3>Iratkozz fel!</h3>
+                <p>Ha nem szeretnél lemaradni a Star Wars újdonságairól, iratkozz fel hírlevelünkre és oszd meg velünk
+                    az oldallal kapcsolatos véleményed néhány szóban:</p>
+                <form>
+                    <fieldset>
+                        <legend>Hírlevél</legend>
+                        Neved:
+                        <input type="text" name="userName" required><br>
+                        E-mail:
+                        <input type="email" name="email" required><br>
+                        <hr>
+                        Vélemény: <br><br>
+                        <textarea name="message" style="width: 300px; height: 100px;"></textarea>
+                        <br>
+                        <input type="submit">
+                    </fieldset>
+                </form>
+            </div>
+            <br>
+
+            <form>
+                <fieldset>
+                    <legend>Ajánlanád másoknak is ezt az oldalt?</legend>
+                    <input type="radio" name="opinion" id="yes"> Igen <br>
+                    <input type="radio" name="opinion" id="no"> Nem <br>
+                    <input type="submit">
+                </fieldset>
+            </form>
+            <div class="centerText">
+                <hr>
+                <a href="#top">Ugrás a lap tetejére!</a>
+                <hr>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <img src="Source/star-wars-light-2908144_1920.png" alt="Lightsaber" width="40%">
+        <nav id="horizontalFooter">A Star Wars filmeket a Disney+ oldalán nézheted meg:<br>
+            <br>
+            <a href="https://www.disneyplus.com/hu-hu">
+                <img src="Source/Disney+_logo.png" alt="disneyplus">
+            </a>
+        </nav>
+        <small>Copyright &copy; Kovács Gergely II. évfolyam mérnökinformatikus, levelező
+        </small>
+    </footer>
+</body>
+
+</html>
