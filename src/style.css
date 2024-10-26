@@ -1,0 +1,33 @@
+header {
+    background-color: navy;
+    text-align: center;
+    border-radius: 10px;
+    display: block;
+}
+
+header ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 20px;
+    overflow: hidden;
+}
+
+header li {
+    display: inline;
+    margin: 20px;
+    padding: 10px 30px;
+}
+
+header a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+header a:hover {
+    background-color:blue;
+    border-radius: 10px;
+    margin: 0px;
+    padding: 20px 20px;
+    border-radius: 10px;
+}
