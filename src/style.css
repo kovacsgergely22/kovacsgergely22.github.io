@@ -115,6 +115,21 @@ main {
     padding: 5px;
 }
 
+#content h2 {
+    text-align: center;
+    text-decoration: underline;
+    line-height: 3;
+    margin: 20px 5px;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+#content h3 {
+    text-align: left;
+    text-decoration: underline;
+    line-height: 2;
+}
+
 footer {
     float:end;
     text-align: center;
