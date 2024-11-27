@@ -90,7 +90,7 @@ body main .content ul li {
 }
 
 body main .content a {
-    background-color:blanchedalmond;
+    background-color:aliceblue;
     color: black;
     padding: 8px;
     margin: 10px;
@@ -102,50 +102,6 @@ body main .content a:hover {
     background-color: navy;
     color: white;
 }
-
-/* .sidebar {
-    position: sticky;
-    top: 75px;
-    background-color:aliceblue;
-    float: inline-start;
-    width: 30%;
-    text-align: center;
-    border-radius: 10px;
-    margin: 20px 2px;
-    padding: 5px;
-}
-
-.sidebar h2 {
-    color: navy;
-    text-align: center;
-    margin: 20px 5px;
-    padding: 5px;
-    border-radius: 10px;
-}
-
-.sidebar ul {
-    list-style-type: none;
-    overflow: hidden;
-}
-
-.sidebar ul li {
-    text-decoration: none;
-    margin: 0px;
-    padding: 10px 0px;
-}
-
-.sidebar a {
-    color: black;
-    text-decoration: none;
-}
-
-.sidebar a:hover {
-    color: blue;
-    background-color: lightgrey;
-    border-radius: 10px;
-    margin: 2px;
-    padding: 10px;
-} */
 
 .content {
     float: inline-end;
