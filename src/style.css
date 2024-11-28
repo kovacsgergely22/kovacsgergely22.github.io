@@ -85,8 +85,8 @@ body main .content ul {
 
 body main .content ul li {
     text-decoration: none;
-    margin: 0px;
-    padding: 5px 0px;
+    margin: 5px;
+    padding: 10px
 }
 
 body main .content a {
