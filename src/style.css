@@ -92,11 +92,12 @@ body main .content ul li {
 
 body main .content a {
     display: block;
+    max-width: 500px;
     background-color: aliceblue;
     text-align: center;
     color: black;
     padding: 15px;
-    margin: 5px;
+    margin: auto;
     border-radius: 15px;
     text-decoration: none;
 }
