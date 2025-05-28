@@ -82,7 +82,7 @@ h1 {
     text-align: center;
     border-bottom: 1px solid black;
     line-height: 2;
-    margin: 30px;
+    margin: 40px;
     padding: 0px;
 }
 
@@ -90,7 +90,7 @@ h2 {
     text-align: center;
     border-bottom: 1px solid black;
     line-height: 2;
-    margin: 20px;
+    margin: 30px;
     padding: 0px;
 }
 
@@ -98,7 +98,7 @@ h3 {
     text-align: center;
     text-decoration: underline;
     line-height: 2;
-    margin: 10px;
+    margin: 20px;
 }
 
 body main .content ul {
