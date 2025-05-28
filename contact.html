@@ -9,6 +9,8 @@
     <meta name="keywords" content="" />
     <meta name="robots" content="NOINDEX, NOFOLLOW" />
     <link rel="stylesheet" href="src/style.css" />
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=mail" />
     <link rel="shortcut icon" href="src/img/favicon.png" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -42,10 +44,46 @@
             font-family: "Cinzel";
             text-align: center;
         }
-        
+
         .content {
             width: 100%;
             margin: 0 auto;
+        }
+
+        .material-symbols-outlined {
+            font-variation-settings:
+                'FILL' 0,
+                'wght' 400,
+                'GRAD' 0,
+                'opsz' 24;
+            vertical-align: middle;
+            margin-right: 15px;
+        }
+
+        #contact {
+            margin: 20px auto;
+            text-align: center;
+            max-width: 600px;
+            padding: 20px;
+            border: 1px solid #ccc;
+            border-radius: 10px;
+            background-color: #f9f9f9;
+        }
+
+        #social-media img {
+            max-width: 30px;
+            height: auto;
+            margin-right: 15px;
+            vertical-align: middle;
+        }
+
+        #qr-code img {
+            max-width: 100px;
+            height: auto;
+            margin-top: 10px;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
         }
     </style>
 </head>
@@ -62,10 +100,20 @@
         </nav>
     </header>
     <main>
-        <section class="content">
-            <h1>Elérhetőségek</h1>
+        <h1>Elérhetőségek</h1>
+        <section id="contact" class="content">
+            <div>
+                <p><span class="material-symbols-outlined">
+                        mail
+                    </span> kovacsgergely22@gmail.com</p>
+            </div>
+            <div id="social-media">
+                <p><img src="img/facebook.png" alt="facebook">https://www.facebook.com/kovacs.gergely.754/</p>
+            </div>
+            <div id="qr-code">
+                <p><img src="src/qr_code.png" alt="QR"></p>
+            </div>
         </section>
-
     </main>
     <footer>
         <small>Kovács Gergely 2024-2025</small>
