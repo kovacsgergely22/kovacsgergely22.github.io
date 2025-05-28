@@ -68,14 +68,37 @@ body main .content {
     width: 100%;
     text-align: justify;
     border-radius: 10px;
-    margin: 5px;
-    padding: 5px;
+    margin: 10px;
+    padding: 10px;
 }
 
-body main h1 {
+body main .content p {
+    text-align: justify;
+    margin: 10px;
+    padding: 10px;
+}
+
+h1 {
     text-align: center;
-    margin: 15px 5px;
-    padding: 5px;
+    border-bottom: 1px solid black;
+    line-height: 2;
+    margin: 30px;
+    padding: 0px;
+}
+
+h2 {
+    text-align: center;
+    border-bottom: 1px solid black;
+    line-height: 2;
+    margin: 20px;
+    padding: 0px;
+}
+
+h3 {
+    text-align: center;
+    text-decoration: underline;
+    line-height: 2;
+    margin: 10px;
 }
 
 body main .content ul {
@@ -105,38 +128,6 @@ body main .content a {
 body main .content a:hover {
     background-color: navy;
     color: white;
-}
-
-.content {
-    float: inline-end;
-    width: 65%;
-    text-align: justify;
-    border-radius: 10px;
-    margin: 2px;
-    padding: px;
-}
-
-.content h1 {
-    text-align: center;
-    border-bottom: 1px solid black;
-    line-height: 2;
-    margin: 30px;
-    padding: 0px;
-}
-
-.content h2 {
-    text-align: center;
-    border-bottom: 1px solid black;
-    line-height: 2;
-    margin: 20px;
-    padding: 0px;
-}
-
-.content h3 {
-    text-align: center;
-    text-decoration: underline;
-    line-height: 2;
-    margin: 10px;
 }
 
 footer {
